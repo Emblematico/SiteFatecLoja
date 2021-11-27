@@ -13,13 +13,13 @@ body{
 #acessibilidade{
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     margin: auto;
 }
 #navps{
     width: 100%;
     height: auto;
-    background-color: #BC0003;
+    background-color: #000000;
     margin: auto;
 }
 #atalhos{
@@ -32,10 +32,10 @@ body{
     display: inline;
 }
 #atalhos li a{
-    color: black;
+    color: yellow;
 }
 #atalhos li a:hover{
-    color: #3e3e3e;
+    color: #fff;
 }
 #pgacess{
     padding-left: 35%;
@@ -48,46 +48,49 @@ body{
     margin-top: 1%;
     padding-left: 5%;
     padding-bottom: 1%;
+    filter: invert(100%);
 }
 #logo_cps{
     width: 25%;
     height: 5%;
     margin-left: 50%;
     padding-bottom: 0.5%;
+    filter: invert(100%);
 }
 nav{
     width: 100%;
     height: auto;
-    background-color: #6A0507;
+    background-color: #000000;
     float: left;
 }
 #menu{
     list-style: none;
-    border: 1px solid #fff;
+    border: 1px solid rgb(0, 0, 0);
     float: left;
     padding-left: 4%;
 }
 #menu li{
     position: relative;
     float: left;
-    border-right: 1px solid #fff;
+    border-right: 1px solid rgb(0, 0, 0);
 }
 #menu li a{
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: yellow;
     text-decoration: none;
     padding: 5px 10px;
     display: block;
 }
 #menu li a:hover{
-    background-color: #a80a0d;
+    background-color: yellow;
     transition: 1s;
+    color: #000000;
 }
 #menu li ul{
     position: absolute;
     top: 25px;
     left: 0;
-    background-color: #6A0507;
+    background-color: #000000;
     display: none;
 }
 #menu li:hover ul{
@@ -152,11 +155,11 @@ label[for="bt_menu"]{
 #conteudo{
     width: 100%;
     min-height: 700px;
-
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: justify;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
 }
 
 #conteudo h1{
@@ -311,9 +314,10 @@ h4 {
 .map li img {
     width: 5%;
     float: left;
+    filter: invert(100%);
 }
 .map li a{
-    color: #a19f9f;
+    color: yellow;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
@@ -325,7 +329,7 @@ h4 {
 }
 #informacoes{
     margin: 2%;
-    color: #ffffff;
+    color: yellow;
     width: 35%;
     float: left;
     padding-left: 1%;
@@ -341,7 +345,7 @@ h4 {
     color: #F9F9F9;
 }
 .info li a {
-    color: #a19f9f;
+    color: yellow;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
@@ -354,10 +358,11 @@ h4 {
 .info li img {
     width: 5%;
     float: left;
+    filter: invert(100%);
 }
 #redes{
     width: 30%;
-    color: #F9F9F9;
+    color: yellow;
     float: left;
     margin: 2%;
 }
@@ -384,11 +389,12 @@ h4 {
 .criadores li img {
     width: 5%;
     float: left;
+    filter: invert(100%);
 }
 input, select{
     width: 95%;
     height: 25px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     color: black;
     border-radius: 7px;
     padding: 5px;
@@ -400,9 +406,10 @@ label, legend{
     font-weight: bold;
     font-size: 1.2em;
     margin-left: 5px;
+    color: #ffffff;
 }
 fieldset{
-    border-color: #ad1316;
+    border-color: #ffffff;
     border-radius: 15px;
     padding: 10px;
 }
@@ -416,19 +423,19 @@ textarea{
 input[type=submit]{
     width: 15%;
     height: 40px;
-    background-color: #aa272a;
-    color: #fff;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
     margin: 10px;
 }
 input[type=reset]{
     width: 15%;
     height: 40px;
-    background-color: #aa272a;
-    color: #fff;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
 }
 .required::after{
     content: " *";
-    color: red;
+    color: yellow;
 }
 .breadcrumb{
     padding-left: 2%;
@@ -438,19 +445,19 @@ input[type=reset]{
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    color: black;
+    color: #ffffff;
 }
 .breadcrumb li a{
-    color: #3e3e3e;
+    color: yellow;
     text-decoration: none;
 }
 .breadcrumb li+li::before{
     content: "/\00a0";
     padding: 6px;
-    color: black;
+    color:#ffffff;
 }
 .breadcrumb li a:hover{
-    color: #000000;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -624,7 +631,7 @@ input[type=reset]{
 /*pagination*/
 .pagination {
     display: block;
-    background-color: #c2bdbd;
+    background-color: #000000;
     margin: 0 auto;
     width: fit-content;
 }
