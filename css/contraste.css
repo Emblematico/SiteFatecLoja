@@ -327,7 +327,7 @@ h4 {
 }
 #informacoes{
     margin: 2%;
-    color: yellow;
+    color: #ffffff;
     width: 35%;
     float: left;
     padding-left: 1%;
@@ -340,7 +340,7 @@ h4 {
 }
 .info li {
     padding: 0.5%;
-    color: yellow;
+    color: #ffffff;
 }
 .info li a {
     color: yellow;
@@ -360,7 +360,7 @@ h4 {
 }
 #redes{
     width: 30%;
-    color: yellow;
+    color: #ffffff;
     float: left;
     margin: 2%;
 }
