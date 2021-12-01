@@ -293,7 +293,7 @@ h4 {
 }
 #mapt{
     margin: 2%;
-    color: yellow;
+    color: #ffffff;
     width: 35%;
     float: left;
     padding-left: 1%;
@@ -306,7 +306,7 @@ h4 {
 }
 .map li {
     padding: 0.5%;
-    color: #a19f9f;
+    color: yellow;
     font-weight: bold;
 }
 .map li img {
