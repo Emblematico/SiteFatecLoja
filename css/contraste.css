@@ -312,7 +312,7 @@ h4 {
 .map li img {
     width: 5%;
     float: left;
-    filter: invert(100%);
+    /*filter: invert(100%);*/
 }
 .map li a{
     color: yellow;
@@ -356,7 +356,7 @@ h4 {
 .info li img {
     width: 5%;
     float: left;
-    filter: invert(100%);
+    /*filter: invert(100%);*/
 }
 #redes{
     width: 30%;
@@ -387,7 +387,7 @@ h4 {
 .criadores li img {
     width: 5%;
     float: left;
-    filter: invert(100%);
+    /*filter: invert(100%);*/
 }
 input, select{
     width: 95%;
